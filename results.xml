@@ -1,0 +1,27 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="31.294799">
+<testsuite name="1Signup.spec.js" timestamp="2024-05-13T17:01:56.320Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.025" errors="0">
+<testcase name="TC003_Delete account" classname="1Signup.spec.js" time="30.025">
+<failure message="1Signup.spec.js:121:1 TC003_Delete account" type="FAILURE">
+<![CDATA[  [chromium] › 1Signup.spec.js:121:1 › TC003_Delete account ────────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('text=Delete Account')
+
+
+      135 |     await page.click('[data-qa="login-button"]');
+      136 |     // Click text=Delete Account
+    > 137 |     await page.click('text=Delete Account');
+          |                ^
+      138 |     // Expect   page to be https://automationexercise.com/delete_account
+      139 |     expect(page.url()).toEqual('https://automationexercise.com/delete_account');
+      140 |     // expect page to have text "ACCOUNT DELETED!"
+
+        at c:\Users\pokem\Desktop\Tester_Course\Playwright_Automation_VScodeEXT\tests\1Signup.spec.js:137:16
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
