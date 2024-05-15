@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('TC001_Verify valid data sign-up', async ({ page }) => {
+test('Logout', async ({ page }) => {
     // Go to https://automationexercise.com
     await page.goto('https://automationexercise.com');
     // Click text=Sign Up

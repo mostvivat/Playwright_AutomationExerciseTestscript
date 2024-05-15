@@ -65,14 +65,14 @@
   },
   "suites": [
     {
-      "title": "1Signup.spec.js",
-      "file": "1Signup.spec.js",
+      "title": "4SearchProduct.spec.js",
+      "file": "4SearchProduct.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "TC003_Delete account",
-          "ok": false,
+          "title": "Search All Products",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -83,39 +83,23 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30025,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "c:\\Users\\pokem\\Desktop\\Tester_Course\\Playwright_Automation_VScodeEXT\\tests\\1Signup.spec.js",
-                        "column": 16,
-                        "line": 137
-                      },
-                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('text=Delete Account')\u001b[22m\n\n\n\u001b[0m \u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-qa=\"login-button\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 136 |\u001b[39m     \u001b[90m// Click text=Delete Account\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 137 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Delete Account'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[90m// Expect   page to be https://automationexercise.com/delete_account\u001b[39m\n \u001b[90m 139 |\u001b[39m     expect(page\u001b[33m.\u001b[39murl())\u001b[33m.\u001b[39mtoEqual(\u001b[32m'https://automationexercise.com/delete_account'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 140 |\u001b[39m     \u001b[90m// expect page to have text \"ACCOUNT DELETED!\"\u001b[39m\u001b[0m\n\n\u001b[2m    at c:\\Users\\pokem\\Desktop\\Tester_Course\\Playwright_Automation_VScodeEXT\\tests\\1Signup.spec.js:137:16\u001b[22m"
-                    }
-                  ],
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 8003,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-05-13T17:01:57.031Z",
+                  "startTime": "2024-05-15T06:04:01.989Z",
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "1e67746f128794fb99c7-26e894c96959a521c3af",
-          "file": "1Signup.spec.js",
-          "line": 121,
+          "id": "3020aca1e3e1685342d5-346f635044f8c111195b",
+          "file": "4SearchProduct.spec.js",
+          "line": 3,
           "column": 1
         }
       ]
@@ -123,11 +107,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-05-13T17:01:56.151Z",
-    "duration": 31294.799000000003,
-    "expected": 0,
+    "startTime": "2024-05-15T06:04:00.449Z",
+    "duration": 11313.401999999769,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
