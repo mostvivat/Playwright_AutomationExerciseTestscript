@@ -1,10 +1,10 @@
 # AutomationExcercise Testscipt
 
-# Used frameworks and technologies
+## Used frameworks and technologies
 - Playwright
 - JavaScript
 
-# Test cases
+## Test cases
 - [x] 1. Register user
 
 <details>
