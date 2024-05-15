@@ -1,4 +1,4 @@
-# AutomationExcercise Tests
+# AutomationExcercise Testscipt
 
 # Used frameworks and technologies
 - Playwright
