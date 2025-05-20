@@ -29,7 +29,7 @@
 - [x] 2. Register user with existing email
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -42,7 +42,7 @@
 - [x] 3.Delete Account
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -56,7 +56,7 @@
 - [x] 4. Login user with correct email and password
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -69,7 +69,7 @@
 - [x] 5. Login User with incorrect email and password
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -82,7 +82,7 @@
 - [x] 6. Logout user
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open browser
 2. Navigate to url 'http://automationexercise.com/login'
@@ -97,7 +97,7 @@
 - [x] 7. Search All Products
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -108,7 +108,7 @@
 - [x] 8. Search products Blue Top
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
   
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -120,7 +120,7 @@
 - [x] 9. Add product to cart 4 Items
 
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
@@ -142,7 +142,7 @@
 - [x] 10. Remove product from cart 2 Items
       
 <details>
-<summary>Expand</summary>
+<summary>TestStep</summary>
 
 1. Open the browser
 2. Navigate to url 'http://automationexercise.com'
